@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+
+*, *:after, *:before{
+    margin:0;
+    padding:0;
+    vertical-align:top;
+    font-family: "Raleway",sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+#gall-nav a{
+    display:block;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:45%;
+    color:#000;
+    font-size:55px;
+    font-weight:200;
+    text-decoration:none;
+    z-index:9999999;
+}
+
+#gall-nav a[href="#previous"]{
+    left:20px;
+}
+
+#gall-nav a[href="#next"]{
+    right:20px;
+}
+
+#gall-nav a:hover{
+    color:rgba(211,16,24,0.9 );
+}
+
+
+.fc-gallery
+{
+    z-index: 9;
+}
+.fc-gallery,
+.fc-gallery ul li{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin:0;
+    padding:0;
+    list-style:none;
+    list-style-type:none;
+}
+
+.fc-gallery li{
+    position:absolute;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+.hide{
+    display:none;
+}
