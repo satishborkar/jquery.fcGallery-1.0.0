@@ -7,7 +7,8 @@
 * @author : Satish Borkar & Manoj Kukarni
 * @version : 1.0.1
 **/
-/**
+
+
 Example :
 <div class="fc-gallery">
 Keep your all images under this div
